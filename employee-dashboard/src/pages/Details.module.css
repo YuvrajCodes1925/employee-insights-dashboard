@@ -1,0 +1,146 @@
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.back {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.cardTitle {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary);
+  margin-bottom: 16px;
+}
+
+.avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--color-accent-bg);
+  color: var(--color-accent-text);
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.empName {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.infoTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.infoTable td {
+  padding: 6px 0;
+  border-bottom: 0.5px solid var(--color-border);
+}
+
+.infoTable td:first-child {
+  color: var(--color-text-secondary);
+  width: 100px;
+}
+
+.camPlaceholder {
+  height: 200px;
+  background: var(--color-bg-secondary);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--color-text-tertiary);
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.camIcon {
+  font-size: 28px;
+}
+
+.video {
+  width: 100%;
+  border-radius: var(--radius-md);
+  background: #000;
+  margin-bottom: 12px;
+  max-height: 240px;
+  object-fit: cover;
+}
+
+.snapCanvas {
+  width: 100%;
+  border-radius: var(--radius-md);
+  margin-bottom: 12px;
+}
+
+.camControls {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.sigCard {
+  grid-column: 1 / -1;
+}
+
+.sigHint {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  margin-bottom: 10px;
+}
+
+.sigCanvas {
+  width: 100%;
+  border: 0.5px solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  display: block;
+  touch-action: none;
+}
+
+.sigControls {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.mergeMsg {
+  font-size: 13px;
+  color: var(--color-success);
+  background: var(--color-success-bg);
+  padding: 8px 12px;
+  border-radius: var(--radius-md);
+  margin-top: 10px;
+}

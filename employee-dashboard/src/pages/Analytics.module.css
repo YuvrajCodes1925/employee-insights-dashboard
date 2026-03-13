@@ -1,0 +1,58 @@
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+.section {
+  margin-bottom: 36px;
+}
+
+.sectionTitle {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.sectionNote {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  margin-bottom: 12px;
+}
+
+.auditImg {
+  width: 100%;
+  max-width: 580px;
+  border-radius: var(--radius-md);
+  display: block;
+  margin-bottom: 12px;
+  border: 0.5px solid var(--color-border);
+}
+
+.downloadBtn {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--color-accent);
+  padding: 6px 14px;
+  border: 0.5px solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.downloadBtn:hover {
+  background: var(--color-bg-secondary);
+  text-decoration: none;
+}
+
+.empty {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  padding: 16px 0;
+}

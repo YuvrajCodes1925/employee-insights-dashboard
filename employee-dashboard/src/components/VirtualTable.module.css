@@ -1,0 +1,76 @@
+.wrapper {
+  background: var(--color-bg);
+  border: 0.5px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr 1.2fr 1.2fr 80px;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  background: var(--color-bg-secondary);
+  border-bottom: 0.5px solid var(--color-border);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.container {
+  overflow-y: auto;
+  position: relative;
+}
+
+.container::-webkit-scrollbar {
+  width: 6px;
+}
+.container::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: 3px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr 1.2fr 1.2fr 80px;
+  padding: 0 20px;
+  height: 52px;
+  align-items: center;
+  font-size: 13px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-bottom: 0.5px solid var(--color-border);
+  cursor: pointer;
+  background: var(--color-bg);
+  transition: background 0.1s;
+}
+
+.row:hover {
+  background: var(--color-bg-secondary);
+}
+
+.name {
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.salary {
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text);
+}
+
+.view {
+  font-size: 12px;
+  color: var(--color-accent);
+  text-align: right;
+}
+
+.footer {
+  padding: 8px 20px;
+  font-size: 12px;
+  color: var(--color-text-tertiary);
+  background: var(--color-bg-secondary);
+  border-top: 0.5px solid var(--color-border);
+}
